@@ -72,24 +72,24 @@
     <img src="profile.jpg" alt="profile photo">
 
     <div>
-      <p><strong>Name:</strong> Rento</p>
+      <p><strong>Name:</strong>Yamamoto Rento</p>
 
       <p>
         Hiroshima University<br>
-        Faculty of Medicine
+        Faculty of Information Science
       </p>
 
       <p>
         E-mail:
-        <a href="mailto:yourmail@example.com">
-          yourmail@example.com
+        <a href="mailto:b261361@hiroshima-u.ac.jp">
+          b261361@hiroshima-u.ac.jp
         </a>
       </p>
 
       <p>
         GitHub:
-        <a href="https://github.com/rento0321">
-          github.com/rento0321
+        <a href="https://rento0321.github.com">
+          rento0321.github.com
         </a>
       </p>
     </div>
@@ -100,8 +100,10 @@
 
   <div class="section">
     <p>
-      広島大学で医学を学んでいます。<br>
-      医療AI、データ解析、プログラミングに興味があります。
+      広島大学で情報学について学んでいます<br>
+      趣味 スポーツ観戦、読書
+      高校時代はバロンドールについての研究結果をアメリカのUCLAで発表、意見交換
+      サッカー部でアナリストとして活動中、将来的には日本トップのスポーツアナリストととして活動したい
     </p>
   </div>
 
@@ -109,10 +111,10 @@
 
   <div class="section">
     <ul>
-      <li>Medical AI</li>
-      <li>Machine Learning</li>
+      <li>Sports analysis</li>
+      <li>Statistics</li>
       <li>Data Science</li>
-      <li>Medical Informatics</li>
+      <li>Sports Science</li>
     </ul>
   </div>
 
@@ -120,8 +122,8 @@
 
   <div class="section">
     <ul>
-      <li>Sample Paper Title (2026)</li>
-      <li>Another Research Article (2025)</li>
+      <li>Ballon d’Or selection criteria and relationship to play
+ (2025)</li>
     </ul>
   </div>
 
@@ -140,13 +142,6 @@
           GitHub
         </a>
       </li>
-
-      <li>
-        <a href="https://x.com/">
-          X (Twitter)
-        </a>
-      </li>
-    </ul>
   </div>
 
   <h2>News</h2>
