@@ -7,62 +7,58 @@
 
   <style>
     body {
-      font-family: Arial, sans-serif;
-      max-width: 900px;
-      margin: auto;
-      padding: 20px;
+      font-family: "Times New Roman", serif;
+      background-color: white;
+      color: black;
       line-height: 1.7;
-      background-color: #ffffff;
-      color: #222;
+      margin: 40px;
     }
 
     h1 {
-      border-bottom: 2px solid #003366;
+      font-size: 2em;
+      border-bottom: 2px solid #333;
       padding-bottom: 10px;
-      color: #003366;
     }
 
     h2 {
       margin-top: 40px;
-      color: #003366;
-      border-left: 5px solid #003366;
+      border-left: 6px solid #444;
       padding-left: 10px;
+      font-size: 1.3em;
     }
 
     a {
-      color: #0066cc;
-      text-decoration: none;
-    }
-
-    a:hover {
+      color: blue;
       text-decoration: underline;
     }
 
     .profile {
       display: flex;
-      gap: 20px;
-      align-items: center;
+      align-items: flex-start;
+      gap: 30px;
+      margin-top: 20px;
       flex-wrap: wrap;
     }
 
     .profile img {
-      width: 180px;
-      border-radius: 10px;
+      width: 220px;
+      border: 1px solid #999;
     }
 
-    .box {
-      background: #f5f7fa;
-      padding: 15px;
-      border-radius: 10px;
-      margin-top: 15px;
+    .section {
+      margin-top: 20px;
+    }
+
+    ul {
+      padding-left: 20px;
     }
 
     footer {
-      margin-top: 50px;
+      margin-top: 60px;
+      border-top: 1px solid #999;
+      padding-top: 10px;
       font-size: 0.9em;
       color: gray;
-      border-top: 1px solid #ccc;
-      padding-top: 10px;
     }
   </style>
 </head>
@@ -72,58 +68,99 @@
   <h1>Rento's Homepage</h1>
 
   <div class="profile">
-    <img src="profile.jpg" alt="プロフィール写真">
+
+    <img src="profile.jpg" alt="profile photo">
 
     <div>
       <p><strong>Name:</strong> Rento</p>
-      <p><strong>Affiliation:</strong> Hiroshima University</p>
-      <p><strong>Email:</strong> yourmail@example.com</p>
 
       <p>
-        Welcome to my personal homepage.
+        Hiroshima University<br>
+        Faculty of Medicine
+      </p>
+
+      <p>
+        E-mail:
+        <a href="mailto:yourmail@example.com">
+          yourmail@example.com
+        </a>
+      </p>
+
+      <p>
+        GitHub:
+        <a href="https://github.com/rento0321">
+          github.com/rento0321
+        </a>
       </p>
     </div>
+
   </div>
 
-  <h2>About Me</h2>
+  <h2>Biography</h2>
 
-  <div class="box">
+  <div class="section">
     <p>
-      自己紹介を書きます。
-      研究内容、興味分野、趣味など。
+      広島大学で医学を学んでいます。<br>
+      医療AI、データ解析、プログラミングに興味があります。
     </p>
   </div>
 
-  <h2>Research</h2>
+  <h2>Research Interests</h2>
 
-  <div class="box">
+  <div class="section">
     <ul>
-      <li>AI / Machine Learning</li>
-      <li>Medical Informatics</li>
+      <li>Medical AI</li>
+      <li>Machine Learning</li>
       <li>Data Science</li>
+      <li>Medical Informatics</li>
     </ul>
   </div>
 
   <h2>Publications</h2>
 
-  <div class="box">
+  <div class="section">
     <ul>
-      <li>Sample Paper 2026</li>
-      <li>Another Research Article</li>
+      <li>Sample Paper Title (2026)</li>
+      <li>Another Research Article (2025)</li>
     </ul>
   </div>
 
   <h2>Links</h2>
 
-  <div class="box">
+  <div class="section">
     <ul>
-      <li><a href="https://github.com/">GitHub</a></li>
-      <li><a href="https://x.com/">X (Twitter)</a></li>
+      <li>
+        <a href="https://www.hiroshima-u.ac.jp/">
+          Hiroshima University
+        </a>
+      </li>
+
+      <li>
+        <a href="https://github.com/rento0321">
+          GitHub
+        </a>
+      </li>
+
+      <li>
+        <a href="https://x.com/">
+          X (Twitter)
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <h2>News</h2>
+
+  <div class="section">
+    <ul>
+      <li>2026/05/20 Homepage opened.</li>
+      <li>2026/04/01 Joined Hiroshima University.</li>
     </ul>
   </div>
 
   <footer>
-    © 2026 Rento
+    Last Updated: May 2026<br>
+    © Rento
   </footer>
 
 </body>
