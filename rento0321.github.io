@@ -40,10 +40,13 @@
       flex-wrap: wrap;
     }
 
-    .profile img {
-      width: 220px;
-      border: 1px solid #999;
-    }
+.profile img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #999;
+}
 
     .section {
       margin-top: 20px;
